@@ -10,12 +10,12 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Main from '../components/Main';
+import Commenthero from '../components/Commenthero';
 /* Populated by react-webpack-redux:reducer */
 class App extends Component {
   render() {
     const {actions} = this.props;
-    return <Main actions={actions}/>;
+    return <Commenthero actions={actions}/>;
   }
 }
 /* Populated by react-webpack-redux:reducer

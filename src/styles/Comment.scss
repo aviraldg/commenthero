@@ -1,0 +1,18 @@
+$padding: 16px;
+
+$color-secondary: #ddd;
+$color-tertiary: #eee;
+
+.ch-commenthero .ch-comment {
+  .ch-avatar {
+    background: $color-tertiary;
+    font-weight: bold;
+    padding: $padding;
+  }
+
+  .ch-content {
+    padding: $padding;
+  }
+
+  border-bottom: 1px solid $color-secondary;
+}
